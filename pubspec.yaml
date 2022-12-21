@@ -1,0 +1,17 @@
+name: apk_reader
+description: APK Reader in Dart
+version: 0.1.0
+homepage: https://github.com/slightfoot/dart_apk_reader.git
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  archive: '>=3.3.5'
+  collection: '>=1.16.0'
+  xml: '>=6.1.0'
+  pkcs7: ^1.0.1
+
+dev_dependencies:
+  lints: ^2.0.1
+  test: ^1.22.1
